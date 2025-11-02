@@ -1,3 +1,11 @@
+"""
+This script initializes a list of dictionaries, where each dictionary represents a member of team-alanin.
+Each dictionary contains the following information about a team member:
+- Name, Slack_Username, Country, Hobby, Affiliation, DNA seq.
+
+The script then iterates through the list and prints each team member's dictionary to the console,
+with a newline character separating each entry for better readability.
+"""
 team_alanin = [
     {
     "Name" : "Aworetan Olamide",
@@ -66,5 +74,6 @@ team_alanin = [
 
 ]
 
-
-print(team_alanin)
+for members in team_alanin:
+    print(member)
+    print("\n")
