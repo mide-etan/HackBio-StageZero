@@ -75,5 +75,5 @@ team_alanin = [
 ]
 
 for members in team_alanin:
-    print(member)
+    print(members)
     print("\n")
