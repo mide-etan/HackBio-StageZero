@@ -1,13 +1,13 @@
 # This stores my personal details, a favorite gene, and its organism in a simple list,
 # then prints them as a single, readable sentence.
-info <- list(
-  name = "Olamide Aworetan",
-  affiliation = "Ekiti State University",
-  gene = "lacZ",
-  organism = "Escherichia coli"
-)
+names <- 'Olamide Aworetan'
+affiliation <- 'Ekiti State University'
+favorite_gene <- 'lacZ'
+organism <- 'Escherichia coli'
 
-cat("Hi, my name is", info$name,
-    ", a researcher at", info$affiliation,
-    ". My favorite gene is", info$gene,
-    "in", info$organism, ".")
+paste0(
+  "Hi, my name is ", names,
+  ", a researcher at ", affiliation,
+  ". My favorite gene is ", favorite_gene,
+  " in ", organism
+)
